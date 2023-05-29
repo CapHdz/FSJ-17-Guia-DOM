@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Guia estructuras de control y DOM</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-md-center gap-2" href="index.html">
+                    <i class="bi bi-filetype-js text-white fs-3"></i>
+                    Estructuras de control y DOM
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Ejercicios
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="ejercicio1.html">Ejercicio 1</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="ejercicio2.html">Ejercicio 2</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="ejercicio3.html">Ejercicio 3</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="ejercicio4.html">Ejercicio 4</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="ejercicio5.html">Ejercicio 5</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="ejercicio6.html">Ejercicio 6</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="ejercicio7.html">Ejercicio 7</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="ejercicio8.html">Ejercicio 8</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="ejercicio9.html">Ejercicio 9</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="ejercicio10.html">Ejercicio 10</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <h1 class="text-center py-2">Guia Estructuras de control y DOM</h1>
+        <h4>Objetivo:</h4>
+        <p class="lead">Aplicar las estructuras de control, eventos y funciones de JavaScript.</p>
+        <h4>Indicaciones:</h4>
+        <p class="lead">Resolver los siguientes ejercicios utilizando html y javascript para la solución de cada ejercicio.</p>
+        <h1 class="text-center py-2">Ejecicios</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4 align-items-md-center">
+                            <img src="assets/img/img1.jpeg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Ejercicio 1</h5>
+                                <p class="card-text">Crear una función que en base a la edad que ingreso el usuario devolver un mensaje si la persona es mayor de edad o no. Utilizar para la condición el operador ternario.</p>
+                                <a href="ejercicio1.html" class="btn btn-primary">Revisar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/img/img2.jpeg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Ejercicio 2</h5>
+                                <p class="card-text">Crear una función que determine la nota final de un alumno, la cual depende de lo siguiente:</p>
+                                <table class="table">
+                                    <tr>
+                                        <td>Examen = 20%</td>
+                                        <td>Asistencia = 10%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tareas = 40%</td>
+                                        <td>Investigación = 30%</td>
+                                    </tr>
+                                </table>
+                                <p class="card-text">Al final deberá mostrar los datos del alumno, nombre, carnet y nota final. </p>
+                                <a href="ejercicio2.html" class="btn btn-primary">Revisar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/img/img3.jpeg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Ejercicio 3</h5>
+                                <p class="card-text">Calcular el aumento de trabajador tomando en cuenta la tabla de categorías de aumento. Para este ejercicio deberá de asignar las siguientes variables: Nombre, Salario, categoría y aumento. Deberá demostrar en html los datos del empleado y el aumento salarial. </p>
+                                <table class="table">
+                                    <thead>
+                                        <th>Categoria</th>
+                                        <th>Aumento</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>A</td>
+                                            <td>15%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>B</td>
+                                            <td>30%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>C</td>
+                                            <td>10%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>D</td>
+                                            <td>20%</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="ejercicio3.html" class="btn btn-primary">Revisar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/img/img4.jpeg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Ejercicio 4</h5>
+                                <p class="card-text">Crear una función que en base a 2 números enteros que ingrese el usuario, calcular cual número es el mayor y devolverlo.</p>
+                                <a href="ejercicio4.html" class="btn btn-primary">Revisar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/img/img5.jpeg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Ejercicio 5</h5>
+                                <p class="card-text">Realizar una función para una tienda de coches en donde se deberá calcular: Si el coche a la venta es un FORD FIESTA, aplicar un 5% de descuento en la compra. Si el coche a la venta es un FORD FOCUS, el descuento será del 10% y si es un FORD ESCAPE el descuento será del 20%. Mostrar en html el coche seleccionado y el descuento que se aplicara en base a lo que selecciono el usuario.</p>
+                                <a href="ejercicio5.html" class="btn btn-primary">Revisar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/img/img6.jpeg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Ejercicio 6</h5>
+                                <p class="card-text">Crear una Función para calcular el descuento en viajes turísticos tomando en cuenta lo siguiente:  
+
+                                    Si el usuario introduce como origen la ciudad de Palma y como destino La costa del Sol, el descuento será de 5%, si el destino es Panchimalco el descuento será del 10% y si el destino es Puerto el Triunfo el descuento será del 15%.</p>
+                                    <a href="ejercicio6.html" class="btn btn-primary">Revisar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/img/img7.jpeg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Ejercicio 7</h5>
+                                <p class="card-text">Realizar programa para una web, en el cual el usuario introduce 2 notas y su valor ponderado (como cuando un examen vale un 30% y otro examen el 70%). Pulsando el botón “Calcula”, la web muestra como resultado la nota media ponderada.</p>
+                                <a href="ejercicio7.html" class="btn btn-primary">Revisar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/img/img8.jpeg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Ejercicio 8</h5>
+                                <p class="card-text">Crear programa donde se introduce una temperatura en Celsius y salga el resultado en Fahrenheit, una vez teniendo la temperatura en Fahrenheit deberá devolver lo siguiente:</p>
+                                <ul>
+                                    <li>Si ºF está entre 14 y 32, sale la frase “Temperatura baja”</li>
+                                    <li>Si ºF está entre 32 y 68, sale la frase “Temperatura adecuada”</li>
+                                    <li>Si ºF está entre 68 y 96, sale la frase “Temperatura alta”</li>
+                                    <li>Si no está entre ningún caso anterior la frase “Temperatura desconocida”</li>
+                                </ul>
+                                <a href="ejercicio8.html" class="btn btn-primary">Revisar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/img/img9.jpeg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Ejercicio 9</h5>
+                                <p class="card-text">Se realiza la carga de 10 valores enteros por teclado. Se desea conocer:</p>
+                                    <ul>
+                                        <li>La cantidad de valores negativos ingresados.</li>
+                                        <li>La cantidad de valores positivos ingresados.</li>
+                                        <li>La cantidad de múltiplos de 15.</li>
+                                        <li>El valor acumulado de los números ingresados que son pares.</li>
+                                    </ul>
+                                <a href="ejercicio9.html" class="btn btn-primary">Revisar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/img/img10.jpeg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Ejercicio 10</h5>
+                                <p class="card-text">Se cuenta con la siguiente información: 
+                                    </p>
+                                    <ul>
+                                        <li>Las edades de 5 estudiantes del turno mañana.</li>
+                                        <li>Las edades de 6 estudiantes del turno tarde.</li>
+                                        <li>Las edades de 11 estudiantes del turno noche.</li>
+                                    </ul>
+                                    <p class="card-text">
+                                        Nota: Las edades de cada estudiante se deberán ingresar por la web.
+                                    </p>
+                                    <p class="card-text">
+                                        Lo que queremos devolver:
+                                    </p>
+                                    <ul>
+                                        <li>Obtener el promedio de las edades de cada turno (tres promedios).</li>
+                                        <li>Imprimir dichos promedios (promedio de cada turno).</li>
+                                        <li>Mostrar por pantalla un mensaje que indique cuál de los tres turnos tiene un promedio de edades mayor</li>
+                                    </ul>
+                                <a href="ejercicio10.html" class="btn btn-primary">Revisar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-dark text-white" style="height: 2rem;">
+        <p class="lead text-center">Willian Hernández</p>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</html>
